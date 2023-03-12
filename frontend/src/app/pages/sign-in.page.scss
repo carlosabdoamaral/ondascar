@@ -1,0 +1,26 @@
+$blue_dark: #1d1726;
+$blue_mid: #2a2640;
+$blue_light: #5368a6;
+$gray: #d9d9d9; // add 50% opacit;
+$white: #fff;
+
+.sign-in-main-container {
+  background-color: $blue_dark;
+
+  min-width: 100vw;
+  width: 100vw;
+  max-width: 100vw;
+
+  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.custom-form-field {
+  input {
+    height: 80px;
+    font-size: 16px;
+    border-radius: 5px !important;
+    background: $gray !important;
+  }
+}
